@@ -8,4 +8,23 @@ head{
 }
 body{
   font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.logo_area{
+  height: 40px;
+  background-color: #f2ae30;
+}
+.main_logo{
+  position: relative;
+  height: 20px;
+  left: 2%;
+}
+.b_text_first{
+  text-decoration: none;
+  color: black;
+}
+.b_text{
+  text-decoration: none;
+  color: black;
 }
