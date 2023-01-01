@@ -29,6 +29,7 @@ body{
 /*info box*/
 .banner_info{
   display: flex;
+  text-align:center;
 }
 .info_box_1{
   background-color: #f2ae30;
@@ -49,6 +50,12 @@ body{
   margin: 10px;
 }
 .info_box_4{
+  background-color: #f2ae30;
+  width: 20%;
+  height: 50%;
+  margin: 10px;
+}
+.info_box_5{
   background-color: #f2ae30;
   width: 20%;
   height: 50%;
