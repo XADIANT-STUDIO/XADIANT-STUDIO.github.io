@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap' );
-
 html{
   display: block;
 }
@@ -18,17 +17,71 @@ body{
 .main_logo{
   position: relative;
   height: 20px;
-  left: 2%;
+  padding: 10px;
   line-height: 50%;
+}
+
+.menu_1{
+  text-decoration: none;
+}
+.menu_2::before{
+  text-decoration: none;
 }
 /*wrap*/
 .wrap{
   padding: 5%;
 }
+/*info*/
+/*info box*/
+.banner_info{
+  display: flex;
+  text-align:center;
+}
+.info_box_1{
+  background-color: #f2ae30;
+  width: 20%;
+  height: 50%;
+  margin: 10px;
+}
+.info_box_2{
+  background-color: #f2ae30;
+  width: 20%;
+  height: 50%;
+  margin: 10px;
+}
+.info_box_3{
+  background-color: #f2ae30;
+  width: 20%;
+  height: 50%;
+  margin: 10px;
+}
+.info_box_4{
+  background-color: #f2ae30;
+  width: 20%;
+  height: 50%;
+  margin: 10px;
+}
+.info_box_5{
+  background-color: #f2ae30;
+  width: 20%;
+  height: 50%;
+  margin: 10px;
+}
+.info_img{
+  width: 100%;
+}
+.info_box_text{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
 /*footer*/
 .footer{
   height: 60px;
   background-color: #222425;
+  padding-left: 5%;
+  font-size: 12px;
 }
 .b_text_first{
   text-decoration: none;
@@ -52,4 +105,51 @@ body{
   margin: 0 8px;
   background-color: #e4e8eb;
   vertical-align: -1px;
+}
+/*500under size*/
+@media only screen and (max-device-width: 500px){
+  .logo_area{
+    height: 60px;
+    background-color: #f2ae30;
+  }
+  .main_logo{
+    position: relative;
+    height: 40px;
+    padding: 10px;
+    line-height: 50%;
+  }
+  /*wrap*/
+  .wrap{
+    padding: 5%;
+  }
+  /*footer*/
+  .footer{
+    height: 100px;
+    background-color: #222425;
+    padding-left: 5%;
+  }
+  .b_text_first{
+    text-decoration: none;
+    color: #e4e8eb;
+    float: left;
+    font-size: 20px;
+  }
+  .b_text{
+    text-decoration: none;
+    color: #e4e8eb;
+    float: left;
+    font-size: 20px;
+  }
+  .info_footer{
+    list-style: none;
+  }
+  .bottom_text_link ::before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 0 8px;
+    background-color: #e4e8eb;
+    vertical-align: -1px;
+  }
 }
