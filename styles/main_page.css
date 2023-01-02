@@ -85,7 +85,14 @@ body{
   text-decoration: none;
   color: white;
 }
+/*announce*/
+.announce{
+  width: 100%; height: 100px;
+  background-color: #f2ae30;
+}
+/*slid img*/
 
+/*slid img*/
 /*footer*/
 .footer{
   height: 60px;
