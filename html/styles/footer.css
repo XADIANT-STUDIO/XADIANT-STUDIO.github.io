@@ -20,13 +20,12 @@ body{
   padding: 10px;
   line-height: 50%;
 }
-
-.menu_1{
-  text-decoration: none;
+/*logo menu*/
+.logo_menu{
+  float: right;
+  padding: 5px;
 }
-.menu_2::before{
-  text-decoration: none;
-}
+.menu_1{text-decoration: none; padding: 10px;  color: #222425;} .menu_2{text-decoration: none;padding: 10px;  color: #222425;}
 /*wrap*/
 .wrap{
   padding: 5%;
@@ -118,6 +117,13 @@ body{
     padding: 10px;
     line-height: 50%;
   }
+  /*logo menu*/
+  .logo_menu{
+    float: right;
+    padding: 5px;
+    font-size: 25px; 
+  }
+  .menu_1{text-decoration: none; padding: 10px;color: #222425;} .menu_2{text-decoration: none;padding: 10px;  color: #222425;}
   /*wrap*/
   .wrap{
     padding: 5%;
