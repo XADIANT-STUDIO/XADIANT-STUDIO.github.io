@@ -12,7 +12,7 @@ body{
 }
 .logo_area{
   height: 40px;
-  background-color: #f2ae30;
+  background-color: #222425;
 }
 .main_logo{
   position: relative;
@@ -37,31 +37,31 @@ body{
   text-align:center;
 }
 .info_box_1{
-  background-color: #f2ae30;
+  background-color: #222425;
   width: 20%;
   height: 50%;
   margin: 10px;
 }
 .info_box_2{
-  background-color: #f2ae30;
+  background-color: #222425;
   width: 20%;
   height: 50%;
   margin: 10px;
 }
 .info_box_3{
-  background-color: #f2ae30;
+  background-color: #222425;
   width: 20%;
   height: 50%;
   margin: 10px;
 }
 .info_box_4{
-  background-color: #f2ae30;
+  background-color: #222425;
   width: 20%;
   height: 50%;
   margin: 10px;
 }
 .info_box_5{
-  background-color: #f2ae30;
+  background-color: #222425;
   width: 20%;
   height: 50%;
   margin: 10px;
@@ -109,7 +109,7 @@ body{
 @media only screen and (max-device-width: 500px){
   .logo_area{
     height: 60px;
-    background-color: #f2ae30;
+    background-color: #222425;
   }
   .main_logo{
     position: relative;

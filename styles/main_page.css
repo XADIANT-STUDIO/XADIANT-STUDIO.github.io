@@ -76,8 +76,30 @@ body{
 /*announce*/
 .announce{
   width: 100%; height: 100px;
+  padding-left: 5%;
   background-color: #222425;
   color: white;
+}
+.sns_link{
+  text-decoration: none;
+}
+.sns_info{
+  background-color: #222425;
+  height: 100px;
+}
+.sns_img{
+  width: 25px;
+  float: left;
+}
+.visit{
+  color: #e4e8eb;
+}
+.sns-ex{
+  text-decoration: none;
+  text-align: center;
+  color: #e4e8eb;
+  padding: 2%;
+  font-size: 10px;
 }
 /*slid img*/
 
@@ -109,7 +131,7 @@ body{
   width: 1px;
   height: 11px;
   margin: 0 8px;
-  background-color: #222425;
+  background-color: #a8b0bf;
   vertical-align: -1px;
 }
 /*500under size*/
@@ -132,8 +154,7 @@ body{
   .menu_1{text-decoration: none; padding: 10px;color: white;} .menu_2{text-decoration: none;padding: 10px;  color: white;}
   /*wrap*/
   .wrap{
-    padding: 5%;
-  }
+    padding: 5%;  }
   /*info*/
   /*info box*/
   .banner_info{
@@ -178,7 +199,27 @@ body{
     text-decoration: none;
     color: white;
   }
-  
+  /*announce*/
+.announce{
+  width: 100%; height: 100px;
+  padding-left: 5%;
+  background-color: #222425;
+  color: white;
+}
+.sns_link{
+  text-decoration: none;
+}
+.sns_info{
+  background-color: #222425;
+  height: 100px;
+}
+.sns_img{
+  width: 25px;
+  float: left;
+}
+.visit{
+  color: #e4e8eb;
+}
   /*footer*/
   .footer{
     height: 100px;
@@ -206,7 +247,7 @@ body{
     width: 1px;
     height: 11px;
     margin: 0 8px;
-    background-color: #222425;
+    background-color: #a8b0bf;
     vertical-align: -1px;
   }
 }
