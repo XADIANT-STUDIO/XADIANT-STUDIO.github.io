@@ -135,12 +135,23 @@ body{
 
 /*500under size*/
 @media only screen and (max-device-width: 500px){
+  html{
+    display: block;
+  }
+  head{
+    display: none;
+  }
+  body{
+    font-family: 'Noto Sans KR', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
   .logo_area{
-    height: 60px;
+    height: 40px;
     background-color: #222425;
   }
   .main_logo{
-    height: 40px;
+    height: 20px;
     padding: 10px;
     line-height: 50%;
   }
@@ -148,47 +159,58 @@ body{
   .logo_menu{
     float: right;
     padding: 5px;
-    font-size: 25px; 
   }
-  .menu_1{text-decoration: none; padding: 10px;color: white;} .menu_2{text-decoration: none;padding: 10px;  color: white;}
+  .logo_menu a:hover, :active{
+    color: #ffa900;
+  }
+  
+  .menu_1{text-decoration: none; padding: 10px;  color: white;} .menu_2{text-decoration: none;padding: 10px;  color: white;}
   /*wrap*/
   .wrap{
-    padding: 5%;  }
+    padding: 5%;
+  }
+  /*slid img*/
+  
+  /*slid img*/
+  .start{
+    width: 100px;
+  }
   /*info*/
   /*info box*/
   .banner_info{
     display: flex;
     text-align:center;
   }
+  
   .info_box_1{
     background-color: #222425;
-    width: 25%;
-    height: 50%;
-    margin: 10px;
+    width: 20%;
+    height: 60%;
+    margin: 20px;
   }
   .info_box_2{
     background-color: #222425;
-    width: 25%;
-    height: 50%;
-    margin: 10px;
+    width: 20%;
+    height: 60%;
+    margin: 20px;
   }
   .info_box_3{
     background-color: #222425;
-    width: 25%;
-    height: 50%;
-    margin: 10px;
+    width: 20%;
+    height: 60%;
+    margin: 20px;
   }
   .info_box_4{
     background-color: #222425;
-    width: 25%;
-    height: 50%;
-    margin: 10px;
+    width: 20%;
+    height: 60%;
+    margin: 20px;
   }
   .info_box_5{
     background-color: #222425;
-    width: 25%;
-    height: 50%;
-    margin: 10px;
+    width: 20%;
+    height: 60%;
+    margin: 20px;
   }
   .info_img{
     width: 100%;
@@ -199,47 +221,44 @@ body{
     color: white;
   }
   /*announce*/
-.announce{
-  width: 100%; height: 100px;
-  padding-left: 5%;
-  background-color: #222425;
-  color: white;
-}
-.sns_link{
-  text-decoration: none;
-}
-.sns_info{
-  background-color: #222425;
-  height: 100px;
-}
-.sns_img{
-  width: 25px;
-  float: left;
-}
-.visit{
-  color: #e4e8eb;
-}
+  .announce{
+    width: 100%; height: 100px;
+    background-color: #222425;
+    color: white;
+  }
+  .information{
+    padding-left: 5%;
+  }
+  .sns_link{
+    text-decoration: none;
+  }
+  .sns_img{
+    width: 25px;
+    float: right;
+    padding-right: 5%;
+  }
+  
   /*footer*/
   .footer{
-    height: 100px;
+    height: 60px;
     background-color: #222425;
     padding-left: 5%;
+    font-size: 12px;
   }
   .b_text_first{
     text-decoration: none;
     color: #e4e8eb;
     float: left;
-    font-size: 20px;
   }
   .b_text{
     text-decoration: none;
     color: #e4e8eb;
     float: left;
-    font-size: 20px;
   }
   .info_footer{
     list-style: none;
   }
+  
   .bottom_text_link ::before{
     content: "";
     display: inline-block;
@@ -248,5 +267,5 @@ body{
     margin: 0 8px;
     background-color: #a8b0bf;
     vertical-align: -1px;
-  }
+  }  
 }
