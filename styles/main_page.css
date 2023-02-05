@@ -32,70 +32,20 @@ body{
 .menu_1{text-decoration: none; padding: 10px;  color: white;} .menu_2{text-decoration: none;padding: 10px;  color: white;}
 
 /*slid img*/
-.slider{
-  width: 0 auto;
-  height: 0 auto;
-  overflow: hidden;
-  padding: 5%;
-  
+#slideShow {   
+  clear:both;   /* 플로팅 해제 */
+  width:100%;    /* 너비 */ 
+  height:50vw;   /* 높이 */ 
+  overflow:hidden;   /* 영역 넘치면 감춤 */ 
+  position: relative;
 }
-
-.sliderinput{
-  display: flex;
-  width: 400%;
-  height: 0 auto;
-}
-
-.sliderinput > input{
-  display: none;
-}
-
-.slideimg{
-  width: 25%;
-  transition: 1s;
-  overflow: hidden;
-}
-
-.slideimg > img{
-  width: 95%;
-  height: 0 auto;
-
-}
-
-.navi-label{
+#slides {
   position: absolute;
-  display: flex;
-  justify-content: center;
 }
-
-.label-btn{
-  border: 3px solid #a8b0bf;
-  border-radius: 50%;
-  cursor: pointer;
-  padding: 10%;
+#slides > img {
+  width:100%;  /* 너비 */
+  float:left;  /* 가로로 배치 */
 }
-
-.label-btn:not(:last-child){
-margin-right: 20px;
-}
-
-.label-btn:hover{
-  background-color: #222425;
-  transition: 0.2s;
-}
-
-#radio1:checked ~.wad{
-  margin-left: 0;
-}
-
-#radio2:checked ~.wad{
-  margin-left: -25%;
-}
-
-#radio3:checked ~.wad{
-  margin-left: -50%;
-}
-
 /*slid img*/
 
 /*wrap*/
