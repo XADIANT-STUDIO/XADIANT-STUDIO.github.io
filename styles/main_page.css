@@ -53,11 +53,13 @@ body{
 .slideimg{
   width: 25%;
   transition: 1s;
+  overflow: hidden;
 }
 
 .slideimg > img{
   width: 95%;
   height: 0 auto;
+
 }
 
 .navi-label{
