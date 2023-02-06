@@ -45,7 +45,7 @@ body{
 #slides > img {
   width:100%;  /* 너비 */
   float:left;  /* 가로로 배치 */
-  transition: all 2s;
+  transition: all 2s ease;
 }
 /*slid img*/
 
