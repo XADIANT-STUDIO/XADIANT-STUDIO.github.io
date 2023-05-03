@@ -41,11 +41,12 @@ body{
 }
 #slides {
   position: absolute;
+  padding: 5%;
 }
 #slides > img {
   width:100%;  /* 너비 */
   float:left;  /* 가로로 배치 */
-  transition: all 2s ease;
+  transition: all 5s ease-in-out;
 }
 /*slid img*/
 
