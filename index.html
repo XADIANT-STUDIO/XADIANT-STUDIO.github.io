@@ -1,72 +1,109 @@
 <!DOCTYPE html>
-<html lang="ko">
-    <head>
-        <meta charset="UTF-8">
-        <title>XADIANT STUDIO</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="styles/main_page.css">
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-        
-        <link rel="shortcut icon" href="/favicon.ico" type="icon">
-        <link rel="icon" href="/favicon.ico" type="icon">
-    </head>
-    <body>
-        <div class="logo_area">
-            <a href="https://xadiant-studio.github.io/home/"><img src="images/main_logo_white.png" class="main_logo" alt="XADIANT"></a>
-            <div class="logo_menu">
-                <a href="#" class="menu_1">APPLICATION</a>
-                <a href="#" class="menu_2">XADIANT GAMES</a>
-                <a href="#" class="menu_2">INFORMATION</a>
-                <a href="#" class="menu_2">MEDIA</a>
-                <a href="#" class="menu_2">Developer</a>
-            </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XADIANT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <a href="#">XADIANT</a>
         </div>
-<!--slide-->
-        <div id="slideShow">
-            <div id="slides">
-            <img src="images/no image.png" alt="">
-            <img src="images/No_img_black.png" alt="">
-            <img src="images/no image.png" alt="">
-            <img src="images/No_img_black.png" alt="">    
-        </div>
-        </div>
-        <script src="slideimg.js"></script>
-        <div class="wrap">
-            
-        </div>
-        <!--end the wrap-->
-            <div class="announce">
-                <a class="announce_info">
-                    <div class="information">information</div>
-                </a>
-            </div>
-        <div class="wrap">
-            
-        </div>
+        <ul class="nav-links">
+            <li class="dropdown">
+                <a href="#games">Games</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#game1">Game 1</a></li>
+                    <li><a href="#game2">Game 2</a></li>
+                    <li><a href="#game3">Game 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown">
+                <a href="#developer">Developer</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                </ul>
+            </li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
 
-        <div class="footer">
-            <div id="footer">
-                <div class="info_footer">
-                    <li class="bottom_text_link_1">
-                        <a href="html/support.html" class="b_text_first">고객센터</a>
-                    </li>
-                    <li class="bottom_text_link">
-                      <a href="html/guideline.html" class="b_text">가이드라인</a>
-                    </li>
-                    <li class="bottom_text_link">
-                      <a href="html/about.html" class="b_text">회사소개</a>
-                    </li>
-                    <li class="bottom_text_link">
-                      <a href="html/all_service.html" class="b_text">전체서비스</a>
-                    </div>
-                </div>
+    </nav>
 
-                <a href="https://instagram.com/xadiant_studio?igshid=NDk5N2NlZjQ=" class="sns_link">
-                    <div class="sns_info">
-                        <img src="images/IMG_0076.PNG" class="sns_img">
-                    </div>
-                </a>
-            </div>
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1>The better rADIANT eXperience, XADIANT! >.< </h1>
+            <p>Immersive worlds and thrilling adventures await you!</p>
+            <a href="#games" class="cta-button">Explore</a>
         </div>
-    </body>
+    </header>
+
+    <!-- Games Section -->
+    <section id="games" class="games-section">
+        <h2>Our Games</h2>
+        <div class="games-gallery">
+            <div class="game-card">
+                <img src="game1.jpg" alt="Game 1">
+                <h3>Game Title 1</h3>
+                <p>A thrilling adventure set in a fantasy world.</p>
+            </div>
+            <div class="game-card">
+                <img src="game2.jpg" alt="Game 2">
+                <h3>Game Title 2</h3>
+                <p>An epic journey filled with action and mystery.</p>
+            </div>
+            <!-- More game cards as needed -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>XADIANT is dedicated to bringing unique gaming experiences to players worldwide. Our passion for storytelling, immersive design, and cutting-edge technology drives us to create games that captivate audiences.</p>
+    </section>
+
+    <!-- Developer Section -->
+    <section id="developer" class="developer-section">
+        <h2>Meet the Developer Team</h2>
+        <p>Our talented team of developers, designers, and artists are committed to pushing the boundaries of what's possible in gaming.</p>
+    </section>
+
+    <!-- News Section -->
+    <section id="news" class="news-section">
+        <h2>Latest News</h2>
+        <div class="news-article">
+            <h3>XADIANT Announces New Project!</h3>
+            <p>We are thrilled to announce our latest project, coming soon to a platform near you.</p>
+        </div>
+        <!-- More news articles as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Got questions or just want to say hi? Reach out to us!</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 XADIANT. All rights reserved.</p>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </footer>
+</body>
 </html>
